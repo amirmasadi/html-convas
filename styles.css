@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: pink;
+}
+
+:root {
+  --bg-dark: #333;
+  --light-primary: #c2c2c2;
+}
+
+#my-canvas {
+  background-color: var(--bg-dark);
+}
